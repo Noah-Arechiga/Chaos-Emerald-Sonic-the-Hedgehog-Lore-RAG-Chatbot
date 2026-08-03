@@ -14,5 +14,5 @@ RUN mkdir -p /app/data
 
 EXPOSE 3001
 
-# Ingest the seed corpus on first boot if the DB doesn't exist yet, then start.
+# Ingest the seed corpus on first boot if the DB doesn't exist yet, then start
 CMD ["sh", "-c", "test -f /app/data/lore.db || npm run ingest; npm start"]
