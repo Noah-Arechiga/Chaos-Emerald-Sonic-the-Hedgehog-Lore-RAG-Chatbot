@@ -1,12 +1,12 @@
 services:
-  backend:
+  backend: 
     build: ./backend
     ports:
       - '3001:3001'
     env_file:
       - .env
     environment:
-      - SQLITE_PATH=
+      - SQLITE_PATH=/app/data/lore.db
       - CORS_ORIGIN=http://localhost:5173
     volumes:
       - lore-data:/app/data

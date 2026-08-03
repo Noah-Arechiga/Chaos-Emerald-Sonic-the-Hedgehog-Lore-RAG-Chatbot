@@ -1,0 +1,142 @@
+openapi: 3.0.3
+info:
+  title: Chaos Emerald: Sonic the Hedgehog Archive
+  description: RAG API over Sonic the Hedgehog lore content.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3001/api
+paths:
+  /chat:
+    post:
+      summary: Ask a lore question (full RAG: retrieve + generate + cite)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [query]
+              properties:
+                query:
+                  type: string
+                  example: "What's the difference between the Sonic the Hedgehog and Shadow the Hedgehog?"
+                history:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      role:
+                        type: string
+                        enum: [user, assistant]
+                      content:
+                        type: string
+      responses:
+        '200':
+          description: Grounded answer with cited sources
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '400':
+          description: Invalid request body
+        '429':
+          description: Rate limited
+        '500':
+          description: Pipeline error
+
+  /search:
+    get:
+      summary: Raw retrieval only, no generation (for debugging retrieval quality)
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: k
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 5
+      responses:
+        '200':
+          description: Top-k similar chunks
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  query:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/RetrievedChunk'
+
+  /stats:
+    get:
+      summary: Corpus size (documents and chunks currently ingested)
+      responses:
+        '200':
+          description: Corpus stats
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  documents:
+                    type: integer
+                  chunks:
+                    type: integer
+
+  /health:
+    get:
+      summary: Liveness check
+      responses:
+        '200':
+          description: OK
+
+components:
+  schemas:
+    ChatResponse:
+      type: object
+      properties:
+        answer:
+          type: string
+        sources:
+          type: array
+          items:
+            $ref: '#/components/schemas/Source'
+    Source:
+      type: object
+      properties:
+        citationIndex:
+          type: integer
+        chunkId:
+          type: string
+        title:
+          type: string
+        sourceUrl:
+          type: string
+          nullable: true
+        category:
+          type: string
+          nullable: true
+        license:
+          type: string
+        score:
+          type: number
+        excerpt:
+          type: string
+    RetrievedChunk:
+      type: object
+      properties:
+        chunkId:
+          type: string
+        title:
+          type: string
+        content:
+          type: string
+        score:
+          type: number
