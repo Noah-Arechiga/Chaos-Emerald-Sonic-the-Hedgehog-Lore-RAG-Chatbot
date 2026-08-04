@@ -12,9 +12,9 @@ const SEED_DIR = path.join(__dirname, 'seedData');
 const EMBED_BATCH_SIZE = 32;
 
 async function main() {
-  console.log('Loading source documents from ${SEED_DIR}');
+  console.log(`Loading source documents from ${SEED_DIR}`);
   const documents = loadSeedDocuments(SEED_DIR);
-  console.log('Loaded ${documents.length} source documents');
+  console.log(`Loaded ${documents.length} source documents`);
 
   // 1. Chunk everything, keeping track of which document each chunk belongs to
   const allChunks = [];
@@ -38,13 +38,13 @@ async function main() {
       });
     });
   }
-  console.log('Chunked into ${allChunks.length} passages');
+  console.log(`Chunked into ${allChunks.length} passages`);
 
   // 2. Embed in batches
   const totalBatches = Math.ceil(allChunks.length / EMBED_BATCH_SIZE);
   for (let b = 0; b < totalBatches; b++) {
     const batch = allChunks.slice(b * EMBED_BATCH_SIZE, (b + 1) * EMBED_BATCH_SIZE);
-    console.log('Embedding batch ${b + 1}/${totalBatches}...');
+    console.log(`Embedding batch ${b + 1}/${totalBatches}...`);
     const embeddings = await embedBatch(batch.map((c) => c.content));
 
     batch.forEach((chunk, i) => {
