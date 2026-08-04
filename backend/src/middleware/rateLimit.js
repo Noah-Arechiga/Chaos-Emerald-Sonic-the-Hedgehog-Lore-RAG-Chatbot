@@ -1,6 +1,4 @@
-// Minimal in-memory sliding-window rate limiter — no Redis dependency needed
-// for a portfolio project. Swap for a Redis-backed limiter (e.g. rate-limiter-flexible)
-// if you deploy this multi-instance.
+// Minimal in-memory sliding-window rate limiter (no Redis dependency needed)
 
 const WINDOW_MS = 60_000;
 const MAX_REQUESTS = 20;
@@ -18,7 +16,7 @@ export function rateLimit(req, res, next) {
 
   if (timestamps.length > MAX_REQUESTS) {
     return res.status(429).json({
-      error: 'Too many requests — please slow down.',
+      error: 'Too many requests at Sonic speed! Please slow down.',
       retryAfterMs: WINDOW_MS,
     });
   }
