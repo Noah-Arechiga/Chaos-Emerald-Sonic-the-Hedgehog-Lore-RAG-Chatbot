@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-obsidian text-ink font-body;
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(47, 230, 167, 0.06), transparent 40%),
+    radial-gradient(circle at 85% 90%, rgba(139, 124, 246, 0.05), transparent 40%);
+}
+
+/* Thin, quiet scrollbars that fit the console theme */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1D3A31; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #2FE6A7; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
