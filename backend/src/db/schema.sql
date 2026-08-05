@@ -1,8 +1,8 @@
--- STH Lore RAG Chatbot — SQLite schema
+-- STH Lore RAG Chatbot: SQLite schema
 -- Kept intentionally simple (two tables) so it's easy to see exactly how
 -- retrieval works. In production, swap this file + vectorStore.js for
 -- Postgres/pgvector and use a 'vector' column with an ivfflat/hnsw index
--- instead of the 'embedding_json' + in-app cosine similarity approach here.
+-- instead of the 'embedding_json' + in-app cosine similarity approach here
 
 CREATE TABLE IF NOT EXISTS documents (
   id          TEXT PRIMARY KEY,      -- slug, e.g. "chaos-emeralds"
