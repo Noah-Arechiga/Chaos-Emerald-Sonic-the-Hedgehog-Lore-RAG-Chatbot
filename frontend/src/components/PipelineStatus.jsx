@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import EmeraldFacet from './EmeraldFacet.jsx';
 
-const STAGES = ['Embedding query', 'Searching the archive', 'Confirming with Omochao'];
+const STAGES = [`Charging the spin dash`, `Searching through Tails' database`, `Confirming with Omochao`];
 
 export default function PipelineStatus() {
   const [stageIndex, setStageIndex] = useState(0);
