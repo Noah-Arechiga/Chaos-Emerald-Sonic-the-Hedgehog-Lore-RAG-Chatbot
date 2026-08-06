@@ -8,13 +8,13 @@ import fetch from 'node-fetch';
 // Fetches each URL in sources.json, strips nav/boilerplate/scripts, and
 // writes clean markdown-ish text into seedData/ with a frontmatter header
 // so loadDocuments.js can pick it up. Run `npm run ingest` afterwards to
-// chunk + embed the new content.
+// chunk + embed the new content
 //
-// Be respectful: this rate-limits requests and sets a descriptive User-Agent.
+// Be respectful: this rate-limits requests and sets a descriptive User-Agent
 // Check robots.txt and each site's terms before scraping at scale — Fandom
 // wiki content is generally CC-BY-SA, which requires attribution (the
 // frontmatter's source_url + license fields preserve that, and the RAG
-// pipeline surfaces them in every citation).
+// pipeline surfaces them in every citation)
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SOURCES_PATH = path.join(__dirname, 'sources.json');
@@ -27,8 +27,8 @@ function slugify(str) {
 }
 
 function extractArticleText($) {
-  // Fandom's MediaWiki skin puts the article body in #mw-content-text.
-  // Strip nav boxes, infoboxes-as-tables, references, edit links.
+  // Fandom's MediaWiki skin puts the article body in #mw-content-text
+  // Strip nav boxes, infoboxes-as-tables, references, edit links
   const root = $('#mw-content-text .mw-parser-output').first();
   root.find('table, .navbox, .reference, sup.reference, .toc, script, style, .mw-editsection').remove();
 
@@ -66,7 +66,7 @@ async function scrapeOne(source) {
   const body = extractArticleText($);
 
   if (!body || body.length < 200) {
-    console.warn(`  Skipped (extracted body too short — check selectors for this site)`);
+    console.warn(`  Skipped (extracted body too short, check selectors for this site)`);
     return;
   }
 
