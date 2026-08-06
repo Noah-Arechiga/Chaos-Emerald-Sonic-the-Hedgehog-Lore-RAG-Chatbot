@@ -9,9 +9,9 @@ export default {
         panel: '#0F1C18',         // Card/panel background
         panelLine: '#1D3A31',     // Hairline borders on panels
         emerald: {
-          DEFAULT: '#2FE6A7',     // Primary accent
-          dim: '#1B8F68',
-          glow: '#7CFFCE',
+          DEFAULT: '#3FA9F5',     // Primary accent (old green: #2FE6A7)
+          dim: '#1E6FB8',         // Old green #1B8F68
+          glow: '#8FD3FF',        // Old green #7CFFCE
         },
         amber: '#F2B84B',         // Citation / relevance accent
         chaos: '#8B7CF6',         
