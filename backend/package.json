@@ -1,5 +1,5 @@
 {
-  "name": "sonic-lore-rag-backend",
+  "name": "sonic-ai-lore-rag-backend",
   "version": "1.0.0",
   "description": "RAG backend over Sonic the Hedgehog lore content",
   "type": "module",
