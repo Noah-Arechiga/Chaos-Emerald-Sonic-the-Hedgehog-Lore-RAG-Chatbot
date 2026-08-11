@@ -16,19 +16,18 @@ const SUGGESTED = [
   'What is the difference between the Master Emerald and a Chaos Emerald?',
   "What really happened to Maria on the ARK, and how did it shape Shadow?",
   'Who is Chaos and why did it become Perfect Chaos?',
-  'How do Super and Hyper transformations differ?',
 ];
 
 export default function Sidebar({ onSuggestedClick }) {
   const { data: stats } = useQuery({ queryKey: ['stats'], queryFn: getStats, retry: 1 });
 
   return (
-    <aside className="hidden w-72 shrink-0 flex-col border-r border-panelLine bg-panel/40 p-5 md:flex">
+    <aside className="hidden h-screen min-h-0 w-72 shrink-0 flex-col overflow-y-auto border-r border-panelLine bg-panel/40 p-5 md:flex">
       <div className="flex items-center gap-2.5">
         <EmeraldFacet size={30} />
         <div>
           <h1 className="font-display text-base font-semibold leading-none text-ink">
-            Chaos Emerald: Sonic the Hedgehog Archive
+            Chaos Emerald: Sonic the Hedgehog Lore Archive
           </h1>
           <p className="mt-1 font-mono text-[10px] uppercase tracking-wider text-ink-muted">
             Sonic Lore, Grounded
