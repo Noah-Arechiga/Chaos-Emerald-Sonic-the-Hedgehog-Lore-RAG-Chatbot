@@ -125,24 +125,4 @@ While the characters got positive reviews from fans, they got mixed reviews from
 
 
 
-## Gallery
-
-
-
-## Artwork
-
-
-
-## Screenshots
-
-
-
-## Wallpapers
-
-
-
-## Miscellaneous
-
-
-
 ## References

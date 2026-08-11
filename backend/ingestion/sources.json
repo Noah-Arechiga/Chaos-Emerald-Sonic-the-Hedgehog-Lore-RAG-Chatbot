@@ -1,11 +1,56 @@
 [
   {
+    "url": "https://sonic.fandom.com/wiki/Ring",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Item_Box",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Capsule",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Star_Post",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Dash_Panel",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Goal_(signpost)",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Goal_Ring",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Chaos_Emerald",
     "category": "Items & Artifacts",
     "license": "CC-BY-SA"
   },
   {
     "url": "https://sonic.fandom.com/wiki/Master_Emerald",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/World_Ring",
+    "category": "Items & Artifacts",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Phantom_Ruby",
     "category": "Items & Artifacts",
     "license": "CC-BY-SA"
   },
@@ -40,6 +85,11 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Cream_the_Rabbit",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Blaze_the_Cat",
     "category": "Characters",
     "license": "CC-BY-SA"
@@ -55,17 +105,22 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Espio_the_Chameleon",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Vector_the_Crocodile",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Charmy_Bee",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/E-123_Omega",
-    "category": "Characters",
-    "license": "CC-BY-SA"
-  },
-  {
-    "url": "https://sonic.fandom.com/wiki/E-102_Gamma",
-    "category": "Characters",
-    "license": "CC-BY-SA"
-  },
-  {
-    "url": "https://sonic.fandom.com/wiki/Team_Chaotix",
     "category": "Characters",
     "license": "CC-BY-SA"
   },
@@ -85,7 +140,32 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Chaos",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Perfect_Chaos",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Biolizard",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Metal_Overlord",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Mephiles_the_Dark",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Black_Doom",
     "category": "Characters",
     "license": "CC-BY-SA"
   },
@@ -95,12 +175,117 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Deadly_Six",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Babylon_Rogues",
     "category": "Characters",
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Infinite",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Chao",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Omochao",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/E-102_Gamma",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Maria_Robotnik",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Gerald_Robotnik",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Orbot",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Cubot",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Chip",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Wisp",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Avatar",
+    "category": "Characters",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Super_Sonic",
+    "category": "Forms",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Darkspine_Sonic",
+    "category": "Forms",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Werehog",
+    "category": "Forms",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Super_Sonic_2",
+    "category": "Forms",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_(1991)",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_2",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_CD",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_3",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_%26_Knuckles",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_R",
     "category": "Games",
     "license": "CC-BY-SA"
   },
@@ -115,6 +300,11 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Adventure_2:_Battle",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_Heroes",
     "category": "Games",
     "license": "CC-BY-SA"
@@ -125,7 +315,22 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Shadow_the_Hedgehog_(game)",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Riders",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_(2006)",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Rivals",
     "category": "Games",
     "license": "CC-BY-SA"
   },
@@ -136,6 +341,16 @@
   },
   {
     "url": "https://sonic.fandom.com/wiki/Sonic_Rush_Adventure",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Rivals_2",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Riders:_Zero_Gravity",
     "category": "Games",
     "license": "CC-BY-SA"
   },
@@ -160,6 +375,16 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Lost_World",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Free_Riders",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_4",
     "category": "Games",
     "license": "CC-BY-SA"
@@ -180,7 +405,17 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Mania",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_Forces",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Colors:_Ultimate",
     "category": "Games",
     "license": "CC-BY-SA"
   },
@@ -190,12 +425,102 @@
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Superstars",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Sonic_X_Shadow_Generations",
     "category": "Games",
     "license": "CC-BY-SA"
   },
   {
+    "url": "https://sonic.fandom.com/wiki/Shadow_Generations",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Racing:_CrossWorlds",
+    "category": "Games",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_X",
+    "category": "TV Shows",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Boom_(TV_series)",
+    "category": "TV Shows",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Mania_Adventures",
+    "category": "TV Shows",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_Prime",
+    "category": "TV Shows",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Knuckles_(TV_series)",
+    "category": "TV Shows",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_(film)",
+    "category": "Movies",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_2_(film)",
+    "category": "Movies",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog_3_(film)",
+    "category": "Movies",
+    "license": "CC-BY-SA"
+  },
+  {
     "url": "https://sonic.fandom.com/wiki/Zone",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Difficulty",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Spin_Attack",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Spin_Dash",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Spin_Jump",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Homing_Attack",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Grinding",
+    "category": "Game Mechanic",
+    "license": "CC-BY-SA"
+  },
+  {
+    "url": "https://sonic.fandom.com/wiki/Wisp_Capsule",
     "category": "Game Mechanic",
     "license": "CC-BY-SA"
   }
