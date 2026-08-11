@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) application that answers deep Sonic
 the Hedgehog lore questions using only retrieved, cited source passages,
 instead of an LLM improvising canon from memory.
  
-**🟢 Live demo:** https://sonic-ai-rag-chatbot.vercel.app
+**🟢 Live demo:** https://chaos-emerald-sonic-the-hedgehog-archive-chatbot.vercel.app
  
 Ask something like *"What really happened to Maria on the ARK, and how did
 it shape Shadow?"* and get an answer grounded in the actual indexed lore,
