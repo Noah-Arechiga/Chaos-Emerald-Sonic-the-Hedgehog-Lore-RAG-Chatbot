@@ -30,7 +30,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log('Chaos Emerald: Sonic the Hedgehog Archive API listening on http://localhost:${PORT}');
+  console.log(`Chaos Emerald: Sonic the Hedgehog Archive API listening on http://localhost:${PORT}`);
   console.log('  POST /api/chat     — ask a lore question (RAG)'); 
   console.log('  GET  /api/search   — raw retrieval (debug)'); 
   console.log('  GET  /api/stats    — corpus size'); 
